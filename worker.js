@@ -57,14 +57,14 @@ proxy-groups:
     use:
       - myprovider
 
-  - name: "BOOM🔥"
+  - name: "SPEED🔥❤️🐭💓🔥"
     type: select
     proxies:
       - LOAD-BALANCE
       - ALL
 
 rules:
-  - MATCH,BOOM🔥
+  - MATCH,SPEED🔥❤️🐭💓🔥
 `
 
     return new Response(config, {
