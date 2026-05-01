@@ -66,12 +66,13 @@ proxy-providers:
       interval: 60
 
 proxy-groups:
+
   # 🔥 Auto fastest
   - name: STABLE
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 180
-    tolerance: 100
+    interval: 300
+    tolerance: 50
     use:
       - myprovider
 
@@ -94,9 +95,9 @@ proxy-groups:
   - name: SELECTOR🔥
     type: select
     proxies:
+      - STABLE
       - LOAD-BALANCE
       - ALL
-      - STABLE
 
 rules:
   - DOMAIN-SUFFIX,googlevideo.com,SELECTOR🔥
