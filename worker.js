@@ -73,7 +73,7 @@ proxies:
 
   - name: proxy7
     type: http
-    server: 203.76.115.98
+    server: 27.147.189.233
     port: 27271
 
   - name: proxy8
