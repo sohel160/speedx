@@ -31,6 +31,8 @@ export default {
 
       const proxies = `
 proxies:
+  - {name: FTP1, type: socks5, server: 103.179.155.84, port: 9168, username: "u0a6309cf4e11", password: "-nYl6DiOoBBJ3g3O"}
+  - {name: FTP2, type: socks5, server: 103.175.242.0, port: 1080, username: "ud78992dc3232", password: "q8qeMjqeqQzUWjo7"}
   - {name: proxy1, type: http, server: 144.48.108.121, port: 5452}
   - {name: proxy2, type: http, server: 144.48.108.122, port: 5452}
   - {name: proxy3, type: http, server: 203.76.108.222, port: 27271}
