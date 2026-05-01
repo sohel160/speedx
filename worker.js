@@ -103,7 +103,7 @@ rules:
   - DOMAIN-SUFFIX,googlevideo.com,SELECTOR🔥
   - DOMAIN-SUFFIX,youtube.com,SELECTOR🔥
   - DOMAIN-SUFFIX,gstatic.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,googleapis.com,SELECTOR
+  - DOMAIN-SUFFIX,googleapis.com,SELECTOR🔥
   - DOMAIN-SUFFIX,cloudflare.com,SELECTOR🔥
   - DOMAIN-SUFFIX,akamaihd.net,SELECTOR
   - DOMAIN-SUFFIX,fastly.net,SELECTOR🔥
@@ -113,6 +113,4 @@ rules:
 
     return new Response(config, {
       headers: { "Content-Type": "text/plain" }
-    })
-  }
-}
+    }
