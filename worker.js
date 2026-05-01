@@ -61,6 +61,11 @@ proxies:
     server: 103.167.17.220
     port: 2610
 
+  - name: proxy5
+    type: http
+    server: 203.76.108.222
+    port: 27271
+
   - name: proxy6
     type: http
     server: 203.76.112.42
@@ -108,6 +113,13 @@ proxy-providers:
       interval: 60
 
 proxy-groups:
+  
+  - name: SELECTOR🔥
+    type: select
+    proxies:
+      - STABLE
+      - LOAD-BALANCE
+      - ALL
 
   - name: STABLE
     type: url-test
@@ -130,12 +142,6 @@ proxy-groups:
     use:
       - myprovider
 
-  - name: SELECTOR🔥
-    type: select
-    proxies:
-      - STABLE
-      - LOAD-BALANCE
-      - ALL
 
 rules:
   - DOMAIN-SUFFIX,googlevideo.com,SELECTOR🔥
