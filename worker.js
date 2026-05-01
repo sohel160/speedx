@@ -66,6 +66,14 @@ proxy-providers:
       interval: 60
 
 proxy-groups:
+  # 🔥 Auto fastest
+  - name: STABLE
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    tolerance: 100
+    use:
+      - myprovider
 
   # ⚡ Load balance
   - name: LOAD-BALANCE
@@ -83,22 +91,23 @@ proxy-groups:
       - myprovider
 
   # 🚀 Final selector
-  - name: SPEED🔥
+  - name: SELECTOR🔥
     type: select
     proxies:
       - LOAD-BALANCE
       - ALL
+      - STABLE
 
 rules:
-  - DOMAIN-SUFFIX,googlevideo.com,SPEED🔥
-  - DOMAIN-SUFFIX,youtube.com,SPEED🔥
-  - DOMAIN-SUFFIX,gstatic.com,SPEED🔥
-  - DOMAIN-SUFFIX,googleapis.com,SPEED🔥
-  - DOMAIN-SUFFIX,cloudflare.com,SPEED🔥
-  - DOMAIN-SUFFIX,akamaihd.net,SPEED🔥
-  - DOMAIN-SUFFIX,fastly.net,SPEED🔥
-  - DOMAIN-SUFFIX,cdn.jsdelivr.net,SPEED🔥
-  - MATCH,SPEED🔥
+  - DOMAIN-SUFFIX,googlevideo.com,SELECTOR🔥
+  - DOMAIN-SUFFIX,youtube.com,SELECTOR🔥
+  - DOMAIN-SUFFIX,gstatic.com,SELECTOR🔥
+  - DOMAIN-SUFFIX,googleapis.com,SELECTOR
+  - DOMAIN-SUFFIX,cloudflare.com,SELECTOR🔥
+  - DOMAIN-SUFFIX,akamaihd.net,SELECTOR
+  - DOMAIN-SUFFIX,fastly.net,SELECTOR🔥
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net,SELECTOR🔥
+  - MATCH,SELECTOR🔥
 `
 
     return new Response(config, {
