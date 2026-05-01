@@ -78,7 +78,7 @@ proxies:
 
   - name: proxy8
     type: http
-    server: 203.76.123.234
+    server: 27.147.221.155
     port: 27271
 
   - name: proxy9
@@ -88,7 +88,7 @@ proxies:
 
   - name: proxy10
     type: http
-    server: 203.76.126.162
+    server: 27.147.195.166
     port: 27271
 `
 
