@@ -105,7 +105,7 @@ rules:
   - DOMAIN-SUFFIX,gstatic.com,SELECTOR🔥
   - DOMAIN-SUFFIX,googleapis.com,SELECTOR🔥
   - DOMAIN-SUFFIX,cloudflare.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,akamaihd.net,SELECTOR
+  - DOMAIN-SUFFIX,akamaihd.net,SELECTOR🔥
   - DOMAIN-SUFFIX,fastly.net,SELECTOR🔥
   - DOMAIN-SUFFIX,cdn.jsdelivr.net,SELECTOR🔥
   - MATCH,SELECTOR🔥
