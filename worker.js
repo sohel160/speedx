@@ -113,4 +113,6 @@ rules:
 
     return new Response(config, {
       headers: { "Content-Type": "text/plain" }
-    }
+    })
+  }
+}
