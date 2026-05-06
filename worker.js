@@ -31,10 +31,6 @@ export default {
 
       const proxies = `
 proxies:
-  - name: Speed1
-    type: http
-    server: 103.198.132.93
-    port: 2610
 
   - name: proxy1
     type: http
@@ -51,10 +47,6 @@ proxies:
     server: 203.76.108.222
     port: 27271
 
-  - name: proxy6
-    type: http
-    server: 203.76.112.42
-    port: 27271
 
   - name: proxy7
     type: http
