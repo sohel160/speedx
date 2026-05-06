@@ -36,11 +36,6 @@ proxies:
     server: 103.198.132.93
     port: 2610
 
-  - name: Speed2
-    type: http
-    server: 103.198.133.138
-    port: 2610
-
   - name: proxy1
     type: http
     server: 144.48.108.121
@@ -50,16 +45,6 @@ proxies:
     type: http
     server: 144.48.108.122
     port: 5452
-
-  - name: proxy3
-    type: http
-    server: 203.76.108.222
-    port: 27271
-
-  - name: proxy4
-    type: http
-    server: 103.167.17.220
-    port: 2610
 
   - name: proxy5
     type: http
