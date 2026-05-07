@@ -56,7 +56,7 @@ proxies:
     type: socks5
     server: 103.179.155.84
     port: 9168
-    username: 9168u0a6309cf4e11
+    username: u0a6309cf4e11
     password: -nYl6DiOoBBJ3g3O
 
   - name: proxy9
