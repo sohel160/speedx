@@ -60,8 +60,8 @@ proxies:
 
   - name: proxy9
     type: http
-    server: 27.147.221.155
-    port: 27271
+    server: 144.48.108.122
+    port: 5452
 
   - name: proxy10
     type: http
