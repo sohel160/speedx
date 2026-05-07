@@ -47,16 +47,17 @@ proxies:
     server: 203.76.108.222
     port: 27271
 
-
   - name: proxy7
     type: http
     server: 27.147.189.233
     port: 27271
 
   - name: proxy8
-    type: http
-    server: 27.147.221.155
-    port: 27271
+    type: socks5
+    server: 103.179.155.84
+    port: 9168
+    username: 9168u0a6309cf4e11
+    password: -nYl6DiOoBBJ3g3O
 
   - name: proxy9
     type: http
