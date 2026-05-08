@@ -52,7 +52,7 @@ proxies:
     server: 27.147.189.233
     port: 27271
 
-  - name: proxy8
+  - name: ftp
     type: socks5
     server: 103.179.155.84
     port: 9168
