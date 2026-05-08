@@ -42,12 +42,12 @@ proxies:
     server: 144.48.108.122
     port: 5452
 
-  - name: proxy5
+  - name: proxy3
     type: http
     server: 203.76.108.222
     port: 27271
 
-  - name: proxy7
+  - name: proxy4
     type: http
     server: 27.147.189.233
     port: 27271
@@ -59,14 +59,19 @@ proxies:
     username: u0a6309cf4e11
     password: -nYl6DiOoBBJ3g3O
 
-  - name: proxy9
+  - name: proxy6
     type: http
     server: 144.48.108.122
     port: 5452
 
-  - name: proxy10
+  - name: proxy7
     type: http
     server: 27.147.195.166
+    port: 27271
+
+  - name: proxy8
+    type: http
+    server: 203.76.108.222
     port: 27271
 `
 
