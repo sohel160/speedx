@@ -56,6 +56,12 @@ proxies:
     type: http
     server: 103.172.14.1
     port: 5452
+
+  - name: proxy5
+    type: http
+    server: 103.198.133.233
+    port: 2610
+    
 `
 
       return new Response(proxies, {
