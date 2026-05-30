@@ -49,30 +49,13 @@ proxies:
 
   - name: proxy4
     type: http
-    server: 27.147.189.233
-    port: 27271
-
-  - name: ftp
-    type: socks5
-    server: 103.179.155.84
-    port: 9168
-    username: u0a6309cf4e11
-    password: -nYl6DiOoBBJ3g3O
-
-  - name: proxy6
-    type: http
     server: 144.48.108.122
     port: 5452
 
-  - name: proxy7
+  - name: proxy5
     type: http
-    server: 27.147.195.166
-    port: 27271
-
-  - name: proxy8
-    type: http
-    server: 203.76.108.222
-    port: 27271
+    server: 103.172.14.1
+    port: 5452
 `
 
       return new Response(proxies, {
