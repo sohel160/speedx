@@ -77,7 +77,7 @@ proxies:
     server: 103.172.14.5
     port: 5452
 
-  - name: proxy9
+  - name: proxy10
     type: http
     server: 103.172.14.253
     port: 5452
