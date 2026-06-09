@@ -50,7 +50,7 @@ proxies:
   - name: proxy4
     type: http
     server: 103.198.133.233
-    port: 5452
+    port: 2610
 
   - name: proxy5
     type: http
