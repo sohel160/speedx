@@ -49,7 +49,7 @@ proxies:
 
   - name: proxy4
     type: http
-    server: 144.48.108.122
+    server: 103.198.133.233
     port: 5452
 
   - name: proxy5
@@ -74,12 +74,12 @@ proxies:
 
   - name: proxy9
     type: http
-    server: 144.48.108.122
+    server: 
     port: 5452
 
   - name: proxy10
     type: http
-    server: 144.48.108.121
+    server: 
     port: 5452
 
     
