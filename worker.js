@@ -34,53 +34,20 @@ proxies:
 
   - name: proxy1
     type: http
-    server: 103.172.14.253
-    port: 5452
+    server: 103.167.17.200
+    port: 2610
 
   - name: proxy2
     type: http
-    server: 103.172.14.5
-    port: 5452
+    server: 103.198.133.118
+    port: 2610
 
   - name: proxy3
     type: http
     server: 45.115.112.194
     port: 11311
 
-  - name: proxy4
-    type: http
-    server: 103.198.133.233
-    port: 2610
 
-  - name: proxy5
-    type: http
-    server: 103.172.14.1
-    port: 5452
-
-  - name: proxy6
-    type: http
-    server: 103.198.133.233
-    port: 2610
-
-  - name: proxy7
-    type: http
-    server: 103.172.14.2
-    port: 5452
-
-  - name: proxy8
-    type: http
-    server: 103.172.14.3
-    port: 5452
-
-  - name: proxy9
-    type: http
-    server: 
-    port: 5452
-
-  - name: proxy10
-    type: http
-    server: 
-    port: 5452
 
     
 `
