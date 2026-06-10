@@ -34,8 +34,8 @@ proxies:
 
   - name: proxy1
     type: http
-    server: 103.167.17.200
-    port: 2610
+    server: 103.172.14.253
+    port: 5452
 
   - name: proxy2
     type: http
