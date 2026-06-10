@@ -44,7 +44,37 @@ proxies:
 
   - name: proxy3
     type: http
-    server: 45.115.112.194
+    server: 103.198.133.233
+    port: 2610
+
+  - name: proxy4
+    type: http
+    server: 103.172.14.1
+    port: 5452
+
+  - name: proxy5
+    type: http
+    server: 103.172.14.2
+    port: 5452
+
+  - name: proxy6
+    type: http
+    server: 103.172.14.3
+    port: 5452
+
+  - name: proxy4
+    type: http
+    server: 103.172.14.5
+    port: 5452
+
+  - name: proxy5
+    type: http
+    server: 103.172.14.4
+    port: 5452
+
+  - name: proxy6
+    type: http
+    server: 103.172.14.253
     port: 11311
 
 
