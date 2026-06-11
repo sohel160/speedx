@@ -33,9 +33,11 @@ export default {
 proxies:
 
   - name: proxy1
-    type: http
-    server: 103.172.14.253
-    port: 5452
+    type: socks5
+    server: 114.130.160.102
+    port: 6969
+    username: wXvzjJ9k
+    password: wXvzjJ9k
 
   - name: proxy2
     type: http
@@ -48,29 +50,20 @@ proxies:
     port: 2610
 
   - name: proxy4
-    type: http
-    server: 103.172.14.1
-    port: 5452
+    type: socks5
+    server: 103.126.219.255
+    port: 65088
+    username: 1
+    password: 1
 
   - name: proxy5
-    type: http
-    server: 103.172.14.2
-    port: 5452
+    type: socks5
+    server: 103.126.219.254
+    port: 65088
+    username: 1
+    password: 1
 
-  - name: proxy6
-    type: http
-    server: 103.172.14.3
-    port: 5452
-
-  - name: proxy7
-    type: http
-    server: 103.172.14.5
-    port: 5452
-
-  - name: proxy8
-    type: http
-    server: 103.172.14.4
-    port: 5452
+  
 
 
 
