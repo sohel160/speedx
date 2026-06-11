@@ -33,11 +33,9 @@ export default {
 proxies:
 
   - name: proxy1
-    type: socks5
-    server: 114.130.160.102
-    port: 6969
-    username: wXvzjJ9k
-    password: wXvzjJ9k
+    type: http
+    server: 45.115.112.194
+    port: 11311
 
   - name: proxy2
     type: http
