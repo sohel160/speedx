@@ -48,18 +48,14 @@ proxies:
     port: 2610
 
   - name: proxy4
-    type: socks5
-    server: 103.126.219.255
-    port: 65088
-    username: 1
-    password: 1
-
+    type: http
+    server: 144.48.108.122
+    port: 5452
+    
   - name: proxy5
-    type: socks5
-    server: 103.126.219.254
-    port: 65088
-    username: 1
-    password: 1
+    type: http
+    server: 144.48.108.122
+    port: 5452
 
   
 
