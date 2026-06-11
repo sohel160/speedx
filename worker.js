@@ -93,10 +93,8 @@ proxy-groups:
   - name: SELECTOR🔥
     type: select
     proxies:
-      - STABLE
       - LOAD-BALANCE
-      - ALL
-
+      
   - name: STABLE
     type: url-test
     url: http://www.gstatic.com/generate_204
