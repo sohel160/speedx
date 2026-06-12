@@ -57,17 +57,17 @@ proxies:
     server: 144.48.108.121
     port: 5452
 
-  - name: proxy3
+  - name: proxy6
     type: http
     server: 103.172.14.1
     port: 5452
 
-  - name: proxy4
+  - name: proxy7
     type: http
     server: 103.172.14.2
     port: 5452
     
-  - name: proxy5
+  - name: proxy8
     type: http
     server: 103.172.14.3
     port: 5452
