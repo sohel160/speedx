@@ -44,7 +44,7 @@ proxies:
 
   - name: proxy3
     type: http
-    server: 103.172.15.9
+    server: 103.172.15.17
     port: 5452
 
   - name: proxy4
