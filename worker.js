@@ -69,7 +69,7 @@ proxies:
     
   - name: proxy8
     type: http
-    server: 103.172.14.21
+    server: 103.172.15.21
     port: 5452
 
   
