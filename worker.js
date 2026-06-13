@@ -44,12 +44,12 @@ proxies:
 
   - name: proxy3
     type: http
-    server: 103.172.15.17
+    server: 144.48.108.121
     port: 5452
 
   - name: proxy4
     type: http
-    server: 103.172.15.5
+    server: 144.48.108.122
     port: 5452
     
   - name: proxy5
