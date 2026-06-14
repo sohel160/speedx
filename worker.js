@@ -54,7 +54,7 @@ proxies:
     
   - name: proxy5
     type: http
-    server: 103.172.15.21
+    server: 103.172.14.1
     port: 5452
 
   - name: proxy6
@@ -69,7 +69,7 @@ proxies:
     
   - name: proxy8
     type: http
-    server: 103.172.15.21
+    server: 103.172.14.253
     port: 5452
 
   
