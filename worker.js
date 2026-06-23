@@ -80,6 +80,7 @@ proxies:
   - name: proxy10
     type: http
     server: 103.172.14.2
+    port: 5452
 
     
 `
