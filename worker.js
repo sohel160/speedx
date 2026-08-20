@@ -34,55 +34,53 @@ proxies:
 
   - name: proxy1
     type: http
-    server: 103.115.242.240
-    port: 2610
+    server: 202.40.180.51
+    port: 8020
 
   - name: proxy2
     type: http
-    server: 103.172.15.9
-    port: 5452
+    server: 202.40.177.197
+    port: 8267
 
   - name: proxy3
     type: http
-    server: 144.48.108.121
-    port: 5452
+    server: 202.40.184.190
+    port: 5241
 
   - name: proxy4
     type: http
-    server: 144.48.108.122
-    port: 5452
-    
+    server: 202.40.187.17
+    port: 2327
+
   - name: proxy5
     type: http
-    server: 103.172.14.1
-    port: 5452
+    server: 103.35.110.221
+    port: 8267
 
   - name: proxy6
     type: http
-    server: 103.172.15.5
-    port: 5452
+    server: 103.35.111.26
+    port: 8504
 
   - name: proxy7
     type: http
-    server: 103.172.15.17
-    port: 5452
-    
+    server: 103.35.111.126
+    port: 8267
+
   - name: proxy8
     type: http
-    server: 103.172.15.21
-    port: 5452
-    
+    server: 103.35.111.241
+    port: 8267
+
   - name: proxy9
     type: http
-    server: 103.172.14.253
-    port: 5452
+    server: 103.198.133.154
+    port: 2610
 
   - name: proxy10
     type: http
-    server: 103.172.14.245
-    port: 5452
-
-    
+    server: 103.198.133.177
+    port: 2610
 `
 
       return new Response(proxies, {
@@ -106,12 +104,12 @@ proxy-providers:
       interval: 60
 
 proxy-groups:
-  
+
   - name: SELECTOR🔥
     type: select
     proxies:
       - LOAD-BALANCE
-      
+
   - name: STABLE
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -133,7 +131,6 @@ proxy-groups:
     type: select
     use:
       - myprovider
-
 
 rules:
   - DOMAIN-SUFFIX,googlevideo.com,SELECTOR🔥
