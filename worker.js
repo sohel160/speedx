@@ -34,8 +34,8 @@ proxies:
 
   - name: proxy1
     type: http
-    server: 202.40.180.51
-    port: 8020
+    server: 202.40.178.230
+    port: 8040
 
   - name: proxy2
     type: http
