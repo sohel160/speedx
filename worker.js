@@ -35,52 +35,9 @@ proxies:
   - name: proxy1
     type: http
     server: 202.40.178.230
-    port: 8040
+    port:
 
-  - name: proxy2
-    type: http
-    server: 202.40.177.197
-    port: 8267
-
-  - name: proxy3
-    type: http
-    server: 202.40.184.190
-    port: 5241
-
-  - name: proxy4
-    type: http
-    server: 202.40.187.17
-    port: 2327
-
-  - name: proxy5
-    type: http
-    server: 103.35.110.221
-    port: 8267
-
-  - name: proxy6
-    type: http
-    server: 103.35.111.26
-    port: 8504
-
-  - name: proxy7
-    type: http
-    server: 103.35.111.126
-    port: 8267
-
-  - name: proxy8
-    type: http
-    server: 103.35.111.241
-    port: 8267
-
-  - name: proxy9
-    type: http
-    server: 103.198.133.154
-    port: 2610
-
-  - name: proxy10
-    type: http
-    server: 103.198.133.177
-    port: 2610
+  
 `
 
       return new Response(proxies, {
