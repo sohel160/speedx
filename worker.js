@@ -34,21 +34,21 @@ export default {
   - name: proxy1
     type: socks5
     server: 103.126.219.253
-    port: 65088
+    port: 
     username: 1
     password: 1
 
   - name: proxy2
     type: socks5
     server: 103.126.219.254
-    port: 65088
+    port: 
     username: 1
     password: 1
 
   - name: proxy3
     type: socks5
     server: 103.126.219.255
-    port: 65088
+    port: 
     username: 1
     password: 1
 `
