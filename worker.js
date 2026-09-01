@@ -33,21 +33,21 @@ export default {
 proxies:
 
   - name: proxy1
-    type: http
+    type: socks5
     server: 103.126.219.253
     port: 65088
     username: 1
     password: 1
 
   - name: proxy2
-    type: http
+    type: socks5
     server: 103.126.219.254
     port: 65088
     username: 1
     password: 1
 
   - name: proxy3
-    type: http
+    type: socks5
     server: 103.126.219.255
     port: 65088
     username: 1
@@ -83,8 +83,6 @@ proxy-groups:
     proxies:
       - LOAD-BALANCE
       - STABLE
-    use:
-      - myprovider
 
   - name: STABLE
     type: url-test
@@ -100,11 +98,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 10
     tolerance: 100
-    use:
-      - myprovider
-
-  - name: ALL
-    type: select
     use:
       - myprovider
 
