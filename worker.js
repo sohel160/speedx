@@ -29,8 +29,7 @@ export default {
     // =========================
     if (url.pathname === "/proxies") {
 
-      const proxies = `
-proxies:
+      const proxies = `proxies:
 
   - name: proxy1
     type: socks5
@@ -64,8 +63,7 @@ proxies:
     // =========================
     // ⚡ MAIN CONFIG
     // =========================
-    const config = `
-proxy-providers:
+    const config = `proxy-providers:
   myprovider:
     type: http
     url: "${url.origin}/proxies?token=abc123"
