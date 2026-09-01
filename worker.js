@@ -39,14 +39,14 @@ proxies:
     username: 1
     password: 1
 
-  - name: proxy1
+  - name: proxy2
     type: http
     server: 103.126.219.254
     port: 65088
     username: 1
     password: 1
 
-  - name: proxy1
+  - name: proxy3
     type: http
     server: 103.126.219.255
     port: 65088
