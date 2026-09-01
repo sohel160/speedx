@@ -34,8 +34,24 @@ proxies:
 
   - name: proxy1
     type: http
-    server: 202.40.178.230
-    port:
+    server: 103.126.219.253
+    port: 65088
+    username: 1
+    password: 1
+
+  - name: proxy1
+    type: http
+    server: 103.126.219.254
+    port: 65088
+    username: 1
+    password: 1
+
+  - name: proxy1
+    type: http
+    server: 103.126.219.255
+    port: 65088
+    username: 1
+    password: 1
 
   
 `
