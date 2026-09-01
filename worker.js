@@ -3,12 +3,12 @@ export default {
 
     const url = new URL(request.url)
 
-    // 🔐 token protection
+    // 🔐 Token protection
     if (url.searchParams.get("token") !== "abc123") {
       return new Response("Forbidden", { status: 403 })
     }
 
-    // 🔍 allow only Clash clients
+    // 🔍 Allow only Clash clients
     const ua = request.headers.get("User-Agent") || ""
 
     const allowedUA = [
@@ -52,12 +52,12 @@ proxies:
     port: 65088
     username: 1
     password: 1
-
-  
 `
 
       return new Response(proxies, {
-        headers: { "Content-Type": "text/plain" }
+        headers: {
+          "Content-Type": "text/plain; charset=utf-8"
+        }
       })
     }
 
@@ -82,6 +82,9 @@ proxy-groups:
     type: select
     proxies:
       - LOAD-BALANCE
+      - STABLE
+    use:
+      - myprovider
 
   - name: STABLE
     type: url-test
@@ -118,7 +121,9 @@ rules:
 `
 
     return new Response(config, {
-      headers: { "Content-Type": "text/plain" }
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8"
+      }
     })
   }
 }
