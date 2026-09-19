@@ -31,26 +31,56 @@ export default {
 
       const proxies = `proxies:
 
-  - name: proxy1
-    type: socks5
-    server: 103.126.219.253
-    port: 
-    username: 1
-    password: 1
+  - name: "🇧🇩 Server-1"
+    type: http
+    server: 202.51.179.62
+    port: 11611
 
-  - name: proxy2
-    type: socks5
-    server: 103.126.219.254
-    port: 
-    username: 1
-    password: 1
+  - name: "🇧🇩 Server-2"
+    type: http
+    server: 202.51.179.62
+    port: 11611
 
-  - name: proxy3
-    type: socks5
-    server: 103.126.219.255
-    port: 
-    username: 1
-    password: 1
+  - name: "🇧🇩 Server-3"
+    type: http
+    server: 202.51.179.62
+    port: 11611
+
+  - name: "🇧🇩 Server-4"
+    type: http
+    server: 202.51.179.62
+    port: 11611
+
+  - name: "🇧🇩 Server-5"
+    type: http
+    server: 203.188.255.21
+    port: 11611
+
+  - name: "🇧🇩 Server-6"
+    type: http
+    server: 113.212.109.211
+    port: 8945
+
+  - name: "🇧🇩 Server-7"
+    type: http
+    server: 113.212.109.210
+    port: 8945
+
+  - name: "🇧🇩 Server-8"
+    type: http
+    server: 113.212.109.209
+    port: 8945
+
+  - name: "🇧🇩 Server-9"
+    type: http
+    server: 113.212.109.208
+    port: 8945
+
+  - name: "🇧🇩 Server-10"
+    type: http
+    server: 113.212.109.208
+    port: 8945
+  
 `
 
       return new Response(proxies, {
