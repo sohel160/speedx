@@ -122,7 +122,7 @@ proxy-groups:
 
   - name: LOAD-BALANCE
     type: load-balance
-    strategy: consistent-hashing
+    strategy: round-robin
     url: http://www.gstatic.com/generate_204
     interval: 10
     tolerance: 100
