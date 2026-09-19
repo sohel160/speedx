@@ -33,13 +33,13 @@ export default {
 
   - name: "🇧🇩 Server-1"
     type: http
-    server: 202.51.179.62
-    port: 11611
+    server: 103.84.36.237
+    port: 22622
 
   - name: "🇧🇩 Server-2"
     type: http
-    server: 202.51.179.62
-    port: 11611
+    server: 103.84.36.237
+    port: 22622
 
   - name: "🇧🇩 Server-3"
     type: http
