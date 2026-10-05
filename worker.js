@@ -30,56 +30,23 @@ export default {
     if (url.pathname === "/proxies") {
 
       const proxies = `proxies:
-
-  - name: "🇧🇩 Server-1"
-    type: http
-    server: 103.84.36.237
-    port: 22622
-
-  - name: "🇧🇩 Server-2"
-    type: http
-    server: 103.84.36.237
-    port: 22622
-
-  - name: "🇧🇩 Server-3"
-    type: http
-    server: 202.51.179.62
-    port: 11611
-
-  - name: "🇧🇩 Server-4"
-    type: http
-    server: 202.51.179.62
-    port: 11611
-
-  - name: "🇧🇩 Server-5"
-    type: http
-    server: 203.188.255.21
-    port: 11611
-
-  - name: "🇧🇩 Server-6"
-    type: http
-    server: 113.212.109.211
-    port: 8945
-
-  - name: "🇧🇩 Server-7"
-    type: http
-    server: 113.212.109.210
-    port: 8945
-
-  - name: "🇧🇩 Server-8"
-    type: http
-    server: 113.212.109.209
-    port: 8945
-
-  - name: "🇧🇩 Server-9"
-    type: http
-    server: 113.212.109.208
-    port: 8945
-
-  - name: "🇧🇩 Server-10"
-    type: http
-    server: 113.212.109.208
-    port: 8945
+  - { name: "HTTP-01", type: http, server: 113.212.109.164, port: 22622 }
+  - { name: "HTTP-02", type: http, server: 113.212.109.163, port: 22622 }
+  - { name: "HTTP-03", type: http, server: 113.212.109.132, port: 22622 }
+  - { name: "HTTP-04", type: http, server: 103.84.36.225, port: 52148 }
+  - { name: "HTTP-05", type: http, server: 103.84.36.237, port: 22622 }
+  - { name: "HTTP-06", type: http, server: 113.212.109.188, port: 22622 }
+  - { name: "HTTP-07", type: http, server: 103.84.36.237, port: 22622 }
+  - { name: "HTTP-08", type: http, server: 113.212.109.56, port: 22622 }
+  - { name: "HTTP-09", type: http, server: 103.84.38.110, port: 22622 }
+  - { name: "HTTP-10", type: http, server: 103.84.38.84, port: 22622 }
+  - { name: "HTTP-11", type: http, server: 103.84.38.52, port: 22622 }
+  - { name: "HTTP-12", type: http, server: 103.84.37.196, port: 22622 }
+  - { name: "HTTP-13", type: http, server: 103.84.37.132, port: 22622 }
+  - { name: "HTTP-14", type: http, server: 103.84.37.123, port: 22622 }
+  - { name: "HTTP-15", type: http, server: 103.84.37.100, port: 22622 }
+  - { name: "HTTP-16", type: http, server: 103.84.37.72, port: 22622 }
+  - { name: "HTTP-17", type: http, server: 103.84.36.237, port: 22622 }
   
 `
 
