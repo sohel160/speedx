@@ -33,7 +33,7 @@ export default {
   - { name: "HTTP-01", type: http, server: 113.212.109.164, port: 22622 }
   - { name: "HTTP-02", type: http, server: 113.212.109.163, port: 22622 }
   - { name: "HTTP-03", type: http, server: 113.212.109.132, port: 22622 }
-  - { name: "HTTP-04", type: http, server: 103.84.36.225, port: 52148 }
+  - { name: "HTTP-04", type: http, server: 103.84.36.225, port: 22622 }
   - { name: "HTTP-05", type: http, server: 103.84.36.237, port: 22622 }
   - { name: "HTTP-06", type: http, server: 113.212.109.188, port: 22622 }
   - { name: "HTTP-07", type: http, server: 103.84.36.237, port: 22622 }
